@@ -1,0 +1,92 @@
+.tab-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tab {
+  cursor: pointer;
+  padding: 10px;
+  margin-right: 10px;
+  border: 2px solid #ccc;
+}
+.tab.active {
+  border: 2px solid rgb(14, 174, 237);
+  background-color: rgb(200, 220, 237);
+  color: white;
+}
+.required-star {
+  color: red;
+  margin-left: 3px !important;
+}
+.container {
+  border: 2px solid skyblue;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  flex-wrap: wrap;
+  width: 40%;
+  height: 550px;
+} 
+.text-input {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f2f2;
+  padding: 20px;
+}
+.sep {
+  background-color: rgb(219, 212, 212);
+  height: 1px;
+}
+.select-input {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f2f2;
+  padding: 20px;
+}
+.select-input select {
+  cursor: pointer;
+}
+.checkbox {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f2f2;
+  padding: 20px;
+}
+.checkbox input {
+  cursor: pointer;
+}
+.advanced-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.advanced-button button {
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: rgb(188, 225, 225);
+}
+
+.Submit-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.Submit-button button {
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(188, 225, 225);
+  cursor: pointer;
+}
+.radio-input {
+  margin: 20px;
+}
+.tab {
+  background-color: #f5f2f2;
+}
+.radio-input {
+  margin: 20px;
+}

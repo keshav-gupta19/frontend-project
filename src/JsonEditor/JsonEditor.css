@@ -1,0 +1,14 @@
+.json-editor-container {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+}
+.btn-check {
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  background-color: rgb(188, 225, 225);
+}
+.json-editor-container textarea {
+    background-color: rgb(237, 240, 240);
+}

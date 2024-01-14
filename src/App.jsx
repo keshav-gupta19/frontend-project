@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import JsonEditor from "./JsonEditor/jsonEditor";
+import JsonEditor from "./JsonEditor/JsonEditor";
 import FormPreview from "./FormPreview/FormPreview";
 function App() {
   const [uiSchema, setUiSchema] = useState([]);
